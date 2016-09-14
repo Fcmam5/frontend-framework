@@ -1,0 +1,4 @@
+//Calculate column width
+@function columnWidth($grdCols,$elemnt) {
+    @return ((100% - $grdCols)/($grdCols/$elemnt));
+}

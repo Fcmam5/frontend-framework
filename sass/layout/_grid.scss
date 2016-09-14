@@ -1,0 +1,37 @@
+@import "abstracts/variables";
+
+.container {
+  padding: 1%;
+}
+
+.row{
+    @for $i from 1 through $gridColsNumber{
+        .col-#{$i}{
+            width: columnWidth($gridColsNumber,$i);
+            @if $defaultDirection != ltr {
+                @extend .rtl;
+                $floatLeft: right;
+                $floatRight: left;
+            }
+            float: $floatLeft;
+            padding: 1px;
+        }
+    }
+
+    &:after{
+        @extend %clearfix;
+    }
+}
+
+.rtl{
+    text-align: right;
+    direction: rtl;
+}
+
+
+// Clearfix hack from Nicolas Gallagher
+%clearfix{
+    content: '';
+    display: table;
+    clear: both;
+}

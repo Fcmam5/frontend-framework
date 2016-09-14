@@ -1,0 +1,7 @@
+/// Mixin helper to output vendor prefixes
+@mixin prefix($proprety, $value) {
+    @each $pref in $prefixes{
+        -#{$pref}-#{$proprety}: $value;
+    }
+    #{$proprety}: $value;
+}

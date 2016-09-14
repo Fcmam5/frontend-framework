@@ -1,0 +1,97 @@
+.container {
+  padding: 1%;
+}
+
+.row .col-1 {
+  width: 5.25%;
+  float: left;
+  padding: 1px;
+}
+.row .col-2 {
+  width: 10.5%;
+  float: left;
+  padding: 1px;
+}
+.row .col-3 {
+  width: 15.75%;
+  float: left;
+  padding: 1px;
+}
+.row .col-4 {
+  width: 21%;
+  float: left;
+  padding: 1px;
+}
+.row .col-5 {
+  width: 26.25%;
+  float: left;
+  padding: 1px;
+}
+.row .col-6 {
+  width: 31.5%;
+  float: left;
+  padding: 1px;
+}
+.row .col-7 {
+  width: 36.75%;
+  float: left;
+  padding: 1px;
+}
+.row .col-8 {
+  width: 42%;
+  float: left;
+  padding: 1px;
+}
+.row .col-9 {
+  width: 47.25%;
+  float: left;
+  padding: 1px;
+}
+.row .col-10 {
+  width: 52.5%;
+  float: left;
+  padding: 1px;
+}
+.row .col-11 {
+  width: 57.75%;
+  float: left;
+  padding: 1px;
+}
+.row .col-12 {
+  width: 63%;
+  float: left;
+  padding: 1px;
+}
+.row .col-13 {
+  width: 68.25%;
+  float: left;
+  padding: 1px;
+}
+.row .col-14 {
+  width: 73.5%;
+  float: left;
+  padding: 1px;
+}
+.row .col-15 {
+  width: 78.75%;
+  float: left;
+  padding: 1px;
+}
+.row .col-16 {
+  width: 84%;
+  float: left;
+  padding: 1px;
+}
+
+.rtl {
+  text-align: right;
+  direction: rtl;
+}
+
+.row:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+/*# sourceMappingURL=main.css.map */
