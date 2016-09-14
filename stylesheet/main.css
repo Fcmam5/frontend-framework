@@ -1,3 +1,20 @@
+@import "https://fonts.googleapis.com/css?family=Cairo|Roboto";
+a, .link {
+  color: red;
+}
+a:hover, .link:hover {
+  color: pink;
+}
+a:visited, .link:visited {
+  color: purple;
+  text-decoration: underline;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
 .container {
   padding: 1%;
 }
@@ -84,11 +101,12 @@
 }
 
 .rtl {
+  font-family: "Cairo", sans-serif;
   text-align: right;
   direction: rtl;
 }
 
-.row:after {
+.row:before, .row:after {
   content: '';
   display: table;
   clear: both;
