@@ -1,7 +1,25 @@
 // 15 columns
 $gridColsNumber: 16;
 
+//prefixes
+$prefixes: webkit o ms moz;
+
 //Default: Left to right
 $defaultDirection: ltr;
 $floatLeft: left;
 $floatRight: right;
+
+//Typography
+$font-family: 'Roboto', sans-serif;
+$ar-font-family: 'Cairo', sans-serif;
+//default text
+$text-default-color: black;
+$base-font-size: 11px;
+$base-font-weight: 400;
+//headings
+$heading-font-size: 22px;
+$heading-font-weight: 500;
+//links
+$link-default-color: red;
+$link-hover-color: pink;
+$link-visited-color: purple;

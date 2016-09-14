@@ -1,0 +1,7 @@
+@import "typography";
+@import 'https://fonts.googleapis.com/css?family=Cairo|Roboto';
+
+body{
+    font-family: $font-family;
+    font-weight: $base-font-weight;
+}

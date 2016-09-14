@@ -18,12 +18,13 @@
         }
     }
 
-    &:after{
+    &:before,&:after{
         @extend %clearfix;
     }
 }
 
 .rtl{
+    font-family: $ar-font-family;
     text-align: right;
     direction: rtl;
 }
