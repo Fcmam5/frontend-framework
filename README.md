@@ -15,7 +15,7 @@ Link CSS simply by adding `stylesheet/min.css` to your HTML.
 ```
 Or if you want to customize it, clone this repository by running
  `git clone https://github.com/Fcmam5/frontend-framework`
-  and to edit Sass files you find in `newbiezSassProject/sass` then compile it.
+  and to edit Sass files you find in `frontend-framework/sass` then compile it.
 
 ### Tutorials & Documentations
 * [Elzero WebSchool Sass tuto](https://www.youtube.com/playlist?list=PLDoPjvoNmBAz6bF7qObm2a1mLN_WHAWQo)
