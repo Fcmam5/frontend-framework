@@ -2,10 +2,12 @@
 ## A Sass Training
 A simple CSS framework built with Sass using the [7-1 pattern](https://sass-guidelin.es/#the-7-1-pattern).
 Built by newbie learning & using Sass for the first time, this project is and it always be opensource for Sass beginners to learn, and for the pros to correct, teach and guide.   
+
 ### Features/Content
 * Grid system
     * 15 column
 * Arabic support
+
 ### How to use it
 Link CSS simply by adding `stylesheet/min.css` to your HTML.
 ```html
